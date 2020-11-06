@@ -25,7 +25,7 @@ public class TestJsnDropNetworkService : MonoBehaviour
     void Start()
     {
         #region Test jsn drop
-        JSONDropService jsDrop = new JSONDropService { Token = "6c420424-62ad-4218-8b1f-d6cf2115facd" };
+        JSONDropService jsDrop = new JSONDropService { Token = "6f26d3ba-60ae-484b-ac42-613fcf21fa19" };
         
         // Create table person
         jsDrop.Create<tblPerson, JsnReceiver>(new tblPerson
